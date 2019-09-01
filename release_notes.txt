@@ -1,0 +1,38 @@
+========================================
+Release Notes
+Pin Analysis ()
+========================================
+
+--------------------------------------
+Release v0.2.0 (January 10, 2018)
+--------------------------------------
+
+Initial release removing the ability for CheckPins API to access Box
+
+New Features:
+ * removed call to box to import tech_dev library
+ * moved necessary function local to pin_analysis_tools.py
+
+--------------------------------------
+Release v0.1.0 (January 05, 2018)
+--------------------------------------
+
+Initial release ready for team use
+
+New Features:
+ * added command line interface for automated analysis of whether or not a pin meets long term averages of impedance
+ * test_check_pins.py for testing methods of CheckPins class
+ * Methods to grab latest results file, identify and grab average magnitude values
+ * Methods to check against average impedances, correctly identifying middle and high risk pins
+ * basic user prompt for user to go through and observe data
+ * Known risk analysis from evaluation done as part of this project
+
+Notes:
+
+Changes:
+
+Bug Fixes from prerelease:
+ * None
+
+Known Issues under previous release:
+ * See above bug fixes
